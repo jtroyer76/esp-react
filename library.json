@@ -1,20 +1,25 @@
 {
-    "name": "esp-rest",
-    "keywords": "json, rest, http, web",
-    "description": "A simple and efficient JSON library for embedded C++. ArduinoJson supports ✔ serialization, ✔ deserialization, ✔ MessagePack, ✔ fixed allocation, ✔ zero-copy, ✔ streams, ✔ filtering, and more. It is the most popular Arduino library on GitHub ❤❤❤❤❤. Check out arduinojson.org for a comprehensive documentation.",
-    "homepage": "https://arduinojson.org/?utm_source=meta&utm_medium=library.json",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/jtroyer76/esp-react.git"
-    },
-    "version": "0.1.0",
-    "exclude": [
-      ".github",
-      "extras"
-    ],
-    "frameworks": "*",
-    "platforms": "*",
-    "build": {
-      "libArchive": false
-    }
+  "name": "esp-rest",
+  "keywords": "json, rest, http, web",
+  "description": "A simple and efficient JSON library for embedded C++. ArduinoJson supports ✔ serialization, ✔ deserialization, ✔ MessagePack, ✔ fixed allocation, ✔ zero-copy, ✔ streams, ✔ filtering, and more. It is the most popular Arduino library on GitHub ❤❤❤❤❤. Check out arduinojson.org for a comprehensive documentation.",
+  "homepage": "https://arduinojson.org/?utm_source=meta&utm_medium=library.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jtroyer76/esp-react.git"
+  },
+  "version": "0.1.0",
+  "exclude": [
+    ".github",
+    "extras"
+  ],
+  "frameworks": "*",
+  "platforms": "*",
+  "build": {
+    "libArchive": false
+  },
+  "dependencies": {
+    "ArduinoJson": ">=6.0.0,<7.0.0",
+    "ESPAsyncWebServer": "*",
+    "AsyncMqttClient": ">=0.9.0,<1.0.0"
   }
+}
