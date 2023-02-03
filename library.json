@@ -14,9 +14,6 @@
   ],
   "frameworks": "*",
   "platforms": "*",
-  "build": {
-    "libArchive": false
-  },
   "dependencies": {
     "ArduinoJson": ">=6.0.0,<7.0.0",
     "ESPAsyncWebServer": "*",
