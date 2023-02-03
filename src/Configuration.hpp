@@ -8,7 +8,7 @@
 #define FACTORY_WIFI_PASSWORD ""
 #endif
 #ifndef FACTORY_WIFI_HOSTNAME
-#define FACTORY_WIFI_SSID "#{platform}-#{unique_id}"
+#define FACTORY_WIFI_HOSTNAME "#{platform}-#{unique_id}"
 #endif
 
 // AP settings
