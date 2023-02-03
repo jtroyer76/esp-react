@@ -1,7 +1,5 @@
 #pragma once
 
-#define PROGMEM_WWW
-
 // Wifi settings
 #ifndef FACTORY_WIFI_SSID
 #define FACTORY_WIFI_SSID ""
@@ -18,7 +16,7 @@
 #define FACTORY_AP_PROVISION_MODE AP_MODE_DISCONNECTED
 #endif
 #ifndef FACTORY_AP_SSID
-#define FACTORY_AP_SSID "esp-rest-#{unique_id}\"
+#define FACTORY_AP_SSID "esp-rest-#{unique_id}"
 #endif
 #ifndef FACTORY_AP_PASSWORD
 #define FACTORY_AP_PASSWORD "esp-rest"
