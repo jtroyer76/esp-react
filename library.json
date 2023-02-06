@@ -1,8 +1,8 @@
 {
   "name": "esp-rest",
   "keywords": "json, rest, http, web",
-  "description": "A simple and efficient JSON library for embedded C++. ArduinoJson supports ✔ serialization, ✔ deserialization, ✔ MessagePack, ✔ fixed allocation, ✔ zero-copy, ✔ streams, ✔ filtering, and more. It is the most popular Arduino library on GitHub ❤❤❤❤❤. Check out arduinojson.org for a comprehensive documentation.",
-  "homepage": "https://arduinojson.org/?utm_source=meta&utm_medium=library.json",
+  "description": "A simple, secure and extensible framework for IoT projects built on ESP8266/ESP32 platforms with responsive React front-end built with Material-UI.",
+  "homepage": "https://github.com/jtroyer76/esp-react",
   "repository": {
     "type": "git",
     "url": "https://github.com/jtroyer76/esp-react.git"
@@ -16,7 +16,7 @@
   "platforms": "*",
   "dependencies": {
     "ArduinoJson": ">=6.0.0,<7.0.0",
-    "external-repo": "https://github.com/me-no-dev/ESPAsyncWebServer",
+    "ESPAsyncWebServer": "https://github.com/me-no-dev/ESPAsyncWebServer",
     "AsyncMqttClient": ">=0.9.0,<1.0.0"
   }
 }

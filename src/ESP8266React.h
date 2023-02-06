@@ -1,7 +1,7 @@
 #ifndef ESP8266React_h
 #define ESP8266React_h
 
-#include "Configuration.hpp"
+#include "FactorySettings.h"
 
 #include <Arduino.h>
 
